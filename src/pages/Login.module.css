@@ -1,0 +1,63 @@
+/* SignUp.module.css */
+
+/* Styles for the entire SignUp component */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px auto; /* Center container horizontally */
+    max-width: 400px; /* Limit the maximum width of the container */
+    border: 1px solid #ccc; /* Add a border to the container */
+    padding: 20px; /* Add padding inside the container */
+    border-radius: 5px; /* Round the corners of the container */
+  }
+  
+  /* Styles for the Form */
+  .form {
+    width: 100%; /* Make the form full width */
+  }
+  
+  /* Styles for the Form Group */
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  /* Styles for the Text Input Fields */
+  .form-control {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Styles for the Text Input Labels */
+  .text-muted {
+    font-size: 0.8rem;
+    color: #888;
+  }
+  
+  
+  
+  /* Styles for the Primary Button */
+  .primary-button {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Styles for the Forgot Password Link */
+  .forgot-password-link {
+    margin-top: 0.5rem;
+    text-align: center; /* Center the "Forgot Password" link */
+  }
+  
+  /* Styles for the Login Link */
+  .login-link {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
